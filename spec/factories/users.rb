@@ -4,10 +4,5 @@ FactoryGirl.define do
   factory :user do
     username "moknows"
     admin false
-
-    trait :admin do
-      admin true
-    end
-
   end
 end
